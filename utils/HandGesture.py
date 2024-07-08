@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
-
+#增加点注释
 # used to estimate what the handpose is
 class HandGesture:
     def __init__(self, detector, estimator):
